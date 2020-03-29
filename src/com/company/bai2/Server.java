@@ -15,7 +15,7 @@ public class Server {
 
             /**
              * Đăng ký đối tượng vs rmiregistry
-             * với tên là ahihidongoc
+             * với tên là StudentQuery
              */
             Naming.bind("rmi://127.0.0.1:6789/StudentQuery", iAccount);
 
